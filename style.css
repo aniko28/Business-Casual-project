@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    font-family: helvetica, SansSerif, Arial;
+}
+
+body {
+    background: url("bg.jpg") no-repeat, center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+.top{
+    text-align: center;
+    /* de akkor a többi miért viselkedett "jól"? */
+    width: 1170px;
+    margin: 0 auto;
+}
+.text{
+    color: #fff;
+    text-align: center;
+}
+h1{
+    padding: 30px 0 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+}
+h2{
+    padding: 0 0 40px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.nav{
+    color:  #777;
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px 10px 10px;
+    height: 60px;
+    width: auto;
+    margin: 0 0 20px;
+}
+li{
+    display: inline-block;
+    padding: 20px 30px 40px;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.wrapper{
+    background-color: rgba(255,255,255,0.9);
+    margin: 0 auto;
+    letter-spacing: 2px;
+    width: 1170px;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.wrapper img{
+    width: 1100px;
+    height: auto;
+    margin: 40px;
+}
+p, h4{
+    color: #777;
+    font-size: 22px;
+}
+h3 {
+    font-size: 50px;
+    height: 70px;
+    font-weight: 700;
+    color: #333;
+}
+
+.wrapper hr{
+    border: 1px;
+    border-top: 1px solid #999;
+    max-width: 250px;
+}
+h4 {
+    line-height: 60px;
+    font-size: 18px;
+}
+.future {
+    background-color: rgba(255,255,255,0.9);
+    margin: 20px auto;
+    letter-spacing: 2px;
+    width: 1170px;
+    height: auto;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 20px 0;
+}
+hr{
+    margin: 20px auto 20px ;
+    border: 1px;
+    border-top: 1px solid #999;
+    max-width: 400px;
+    line-height: 40px;
+    padding: 0;
+}
+h5{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #777777;
+}
+.future img{
+    float: left;
+    margin: 0 20px 20px 20px;
+}
+.future p{
+    margin: 0 20px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 0;
+    text-align: left;
+    letter-spacing: 0px;
+    line-height: 27px;
+}
+.passz{
+    background: rgba(255,255,255,0.9);
+    padding: 20px 0;
+}
+h6{
+    font-size: 18px;
+    color: #777;
+}
+.passz p{
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 27px;
+}
+.copy {
+    margin: 20px 0 0 0;
+    text-align: center;
+    background: rgba(255,255,255,0.9);
+    height: 40px;
+    padding: 20px 0 0 ;
+}
